@@ -4,10 +4,10 @@
 package tun
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/buffer"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/toteb/gvisor/pkg/buffer"
+	"github.com/toteb/gvisor/pkg/tcpip"
+	"github.com/toteb/gvisor/pkg/tcpip/header"
+	"github.com/toteb/gvisor/pkg/tcpip/stack"
 	wgtun "golang.zx2c4.com/wireguard/tun"
 )
 
